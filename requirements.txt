@@ -1,0 +1,7 @@
+# 桌面宠物 - 依赖说明
+# 核心功能仅需 Python 标准库（tkinter / urllib / json / datetime 等）
+
+# 以下为可选依赖：声音检测（跳舞功能）
+# 未安装时程序自动降级，其余功能不受影响
+sounddevice>=0.4.6
+numpy>=1.20.0
